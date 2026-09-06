@@ -9,9 +9,9 @@
 ```js
 const bl888m = {
   writes:  ["prediction markets", "DeFi", "what the crowd gets wrong"],  // on X, @bl888m
-  builds:  ["assay", "market tooling", "content pipelines"],
+  builds:  ["assay: an AI hedge-fund desk", "market tooling", "content"],
   rules:   ["paper first", "receipts over hype", "the resolution is the source"],
-  now:     "assay: an autonomous prediction-market paper fund",
+  now:     "assay: six AI agents trading prediction markets, paper by default",
   learns:  "by sizing a bet, then reading how it resolved",
 };
 ```
@@ -28,23 +28,27 @@ const bl888m = {
 
 | Area | What it means in practice |
 | ---- | ------------------------- |
-| **Mispriced probability** | reading a prediction market, estimating the true probability with a model you can read, and only betting where the crowd is predictably wrong |
-| **Sizing and risk** | quarter-Kelly on the edge, hard caps per market and per category, a desk whose whole job is to say no |
-| **Prediction markets and DeFi** | Polymarket, referral operations, and the market structure underneath, from the data and not from the hype |
+| **An AI hedge-fund desk** | six small agents that scout markets, estimate the real odds, size by Kelly, refuse most of it, and own a paper book |
+| **Mispriced probability** | reading a prediction market and only betting where the crowd is predictably wrong, with a model you can read |
+| **Prediction markets and DeFi** | Polymarket, Robinhood event contracts, referral operations, the market structure from the data and not the hype |
 | **Content** | threads and video on X about how these markets actually price, written to be argued with |
 
-> Nothing here is a black box. If a number is on screen, the code can show the line that made it.
+> Nothing here is a black box. If a number is on screen, the code can show the agent that made it.
 
 ### Now shipping
 
 [![assay](https://github.com/bl888m/assay/raw/main/assets/banner.png)](https://github.com/bl888m/assay)
 
+Robinhood gave everyone the buy button. **assay** gives you the rest of the desk: six agents that read a market, estimate the real odds, size by Kelly, and pass on most of it. Paper by default, and honest about it.
+
 [![assay repo](https://img.shields.io/badge/github.com%2Fbl888m%2Fassay-open%20the%20repo-CCFF00?style=for-the-badge&logo=github&logoColor=110E08&labelColor=110E08)](https://github.com/bl888m/assay)
 
+[![assay scan](https://github.com/bl888m/assay/raw/main/assets/shot_scan.png)](https://github.com/bl888m/assay)
+
+![agents](https://img.shields.io/badge/desk-6%20agents-CCFF00?style=for-the-badge&labelColor=110E08)
 ![mean return](https://img.shields.io/badge/mean%20return-%2B2.68%25%20%2F%20500%20runs-CCFF00?style=for-the-badge&labelColor=110E08)
 ![runs green](https://img.shields.io/badge/runs%20green-66%25-CCFF00?style=for-the-badge&labelColor=110E08)
 ![sizing](https://img.shields.io/badge/sizing-quarter--Kelly-CCFF00?style=for-the-badge&labelColor=110E08)
-![deps](https://img.shields.io/badge/runtime%20deps-0-CCFF00?style=for-the-badge&labelColor=110E08)
 ![mode](https://img.shields.io/badge/mode-paper%20by%20default-CCFF00?style=for-the-badge&labelColor=110E08)
 
 simulated backtest, not live trading, and labelled that way on purpose
