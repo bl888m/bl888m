@@ -1,4 +1,4 @@
-![bl888m: prediction markets, DeFi, content](header.png)
+![bl888m: prediction markets, DeFi, content](header.png?v=2)
 
 [![x](https://img.shields.io/badge/x-%40bl888m-110E08?style=for-the-badge&logo=x&logoColor=CCFF00)](https://x.com/bl888m)
 ![followers](https://img.shields.io/github/followers/bl888m?style=for-the-badge&logo=github&logoColor=CCFF00&color=110E08&labelColor=110E08&label=followers)
